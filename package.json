@@ -1,0 +1,33 @@
+{
+  "name": "aula-005",
+  "version": "0.0.1",
+  "description": "Aula 005 - NodeJs with Oracledb and ExpressJS (API)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "oracledb",
+    "expressjs"
+  ],
+  "author": "Studio Atual <contato@studioatual.com> (https://studioatual.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.10.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "oracledb": "^4.0.1"
+  }
+}
